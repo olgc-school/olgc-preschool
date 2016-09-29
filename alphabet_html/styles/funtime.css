@@ -85,8 +85,11 @@ a:hover, a:focus,
 .breadcrumb a:focus,
 .media-heading small,
 #about .media i,
-.latest-caption h4:hover
+/*.latest-caption h4:hover*/
 {color:#d12881;}
+
+.latest-caption h4:hover
+{cursor:default;}
 
 .btn{border-color:#d12881;}
 
