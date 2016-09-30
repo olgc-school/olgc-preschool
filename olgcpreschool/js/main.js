@@ -84,7 +84,7 @@ jQuery(function ($) {
 		
         $("#owl-about").owlCarousel({
             items: 1,
-            dots: true,
+            dots: false,
             loop: true,
             autoplay: false,
         });
