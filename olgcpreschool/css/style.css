@@ -39,13 +39,25 @@ body{
 	height: 100%;
 	font-family: 'Lato',sans-serif;
 	font-weight: 400;
-	color:#696767;
+	color: #333;
 }
 
 p{
     font-size: 16px;
     line-height: 29px;
 }
+
+p#program {
+    font-size: 18px;
+    line-height: 32px;
+    color: #333;
+}
+
+p#program strong{
+  font-size: 22px;
+}
+
+
 
 /* Headings */
 
@@ -786,13 +798,14 @@ blockquote small:before{display:none;}
 }
 
 .team-item .team-caption {
-    bottom: 0px;
-    right: -10px;
-	transition: all 0.3s;
-    position: absolute;
+    /*bottom: 0px;
+    right: -10px;*/
+    transition: all 0.3s;
+    /*position: absolute;*/
     padding: 10px;
 	  text-align:center;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-top: 16px;
 }
 
 .team-item .team-caption h4,
@@ -801,6 +814,14 @@ blockquote small:before{display:none;}
   color: #fff !important;
   font-weight:700;
   padding:0px;
+}
+
+.team-item .team-caption h5.text-light {
+  font-size: 20px;
+}
+
+.team-item .team-caption {
+  line-height: 18px;
 }
 
 .team-item:hover img {border:10px solid}
