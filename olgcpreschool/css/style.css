@@ -727,7 +727,12 @@ i {transition: all .2s ease-in-out;}
     margin: 20px;
     padding: 10px;
     vertical-align: middle; 
-}  
+}
+
+#philosophy .philosophy-desc p {
+  font-size: 18px;
+  line-height: 32px;
+}
  
 .row.features{margin: 40px 0 40px;}
 
@@ -1839,7 +1844,7 @@ hr {
 	border-radius:20px 20px 0px 0px;
 	padding: 10px 35px;
 	color:#fff !important;
-	font-size: 22px;
+	font-size: 20px;
 }
 
 /* Panels */
