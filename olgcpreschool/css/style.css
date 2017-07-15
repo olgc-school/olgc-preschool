@@ -840,6 +840,7 @@ table#daily-schedule > tbody > tr > td,
 table#daily-schedule > tbody > tr > th {
   border: 1px solid #696767;
   padding: 4px 18px;
+  background-color: #fff;
 }
 
 #activities{
